@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-size: large;
+    width: 50rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+.main-heading{
+    
+    width: 90%;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.sub-heading{
+    margin-top: 2rem;
+    font-weight: 1000;
+    font-size: larger;
+}

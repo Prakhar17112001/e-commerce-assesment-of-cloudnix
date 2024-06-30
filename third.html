@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product - Pricing Page</title>
+    <link rel="stylesheet" href="third.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <h2>Let's add your first product</h2>
+            <div class="section">
+                <h3>Basic Details</h3>
+                <label for="product-name">Product name</label>
+                <input type="text" id="product-name" placeholder="eg - anatomy book">
+    
+                <label for="product-description">Product Description</label>
+                <textarea id="product-description" rows="4" placeholder="Enter product description here"></textarea>
+    
+                <div class="image-upload">
+                    <label for="product-image">Add Image(s)</label>
+                    <input type="file" id="product-image">
+                </div>
+    
+                <div class="checkbox">
+                    <input type="checkbox" id="sku">
+                    <label for="sku">This product has an SKU code</label>
+                </div>
+                <input type="text" placeholder="eg - PROD0001">
+    
+                <div class="checkbox">
+                    <input type="checkbox" id="hsn">
+                    <label for="hsn">This product has an HSN/SAC code</label>
+                </div>
+            </div>
+    
+            <div class="section">
+                <h3>Pricing Details</h3>
+                <div class="checkbox">
+                    <input type="checkbox" id="gst">
+                    <label for="gst">Price inclusive of GST</label>
+                </div>
+    
+                <div class="pricing-details">
+                    <input type="text" placeholder="Net price" id="net-price">
+                    <input type="text" placeholder="List price" id="list-price">
+                    <input type="text" placeholder="Discount percentage" id="discount-percentage">
+                    <input type="text" placeholder="GST rate" id="gst-rate">
+                    <input type="text" placeholder="Shipping charges (if any)" id="shipping-charges">
+                    <input type="text" placeholder="Stock level" id="stock-level">
+                </div>
+            </div>
+           
+            <div class="buttons">
+                <a href="">
+                    <button class="back">Back</button>
+                </a>
+                <button class="next">Next</button>
+            </div>
+        </div>
+        <div class="container2">
+            <img src="https://via.placeholder.com/400x400" alt="Product Image" class="product-image">
+            <div class="product-title">Product title</div>
+            <div class="product-description">
+                Esse minim eiusmod amet et incididunt magna consectetur laborum. Ipsum et cillum do exercitation nostrud nostrud ex. Consectetur Lorem nostrud sint adipisicing amet ipsum cupidatat Lorem adipisicing veniam officia duis excepteur Lorem labore. Non eu non
+            </div>
+            <div class="product-price">
+                <div class="old-price">RS 100</div>
+                <div class="new-price">RS 90</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
